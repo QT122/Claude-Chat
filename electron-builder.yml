@@ -1,0 +1,19 @@
+appId: com.claude-chat.app
+productName: Claude Chat
+directories:
+  output: dist
+files:
+  - out/**/*
+extraMetadata:
+  main: out/main/index.js
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  signAndEditExecutable: false
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
