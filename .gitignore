@@ -1,7 +1,0 @@
-node_modules/
-out/
-dist/
-.env
-*.enc
-# installer/ — 安装包较大 (~92MB)，如需上传请取消注释
-# installer/ — installers are large (~92MB each), uncomment to gitignore
