@@ -151,7 +151,7 @@ claude-chat/
 │       ├── hooks/               ← React Hooks
 │       └── styles/              ← 样式
 │
-└── installer/                   ← 安装包
+└── installer/                   ← 安装包（达到git上限，需自行打包）
     └── Claude-Chat-Setup.exe
 ```
 
