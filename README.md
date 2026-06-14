@@ -151,7 +151,7 @@ claude-chat/
 │       ├── hooks/               ← React Hooks
 │       └── styles/              ← 样式
 │
-└── installer/                   ← 安装包（不上传 Git）
+└── installer/                   ← 安装包
     └── Claude-Chat-Setup.exe
 ```
 
@@ -188,8 +188,6 @@ claude-chat/
 - API Key 存储在本地，**不会上传到任何服务器**
 - 各平台注册要求不同，按需选择
 - 按 token 用量计费，各平台价格不同
-- 不要将 `.env` 文件提交到 Git（已在 `.gitignore` 中排除）
-- 打包后的 `.exe` 文件较大（Electron 运行时），不建议上传 Git
 
 ---
 
